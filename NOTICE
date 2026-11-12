@@ -1,0 +1,14 @@
+Code in this repository (Python scripts and the test suite) is licensed under
+the MIT License. See LICENSE.
+
+Documentation, including prereg.md, prereg_v2.md, README.md, NOTICE, and the
+text files under results/, is licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0). See https://creativecommons.org/licenses/by/4.0/
+
+The CSV files under data/ are public catalog extracts and predicted-transit
+tables, not original documentation:
+- data/tabby_dr3.csv and data/controls_raw.csv are extracts from Gaia Data
+  Release 3 (ESA/Gaia/DPAC). Use of Gaia data should follow the credit and
+  citation guidelines at https://www.cosmos.esa.int/web/gaia/data-release-3
+- data/gost_tabby_dr4window.csv is output from ESA's Gaia Observation Schedule
+  Tool (GOST) for the planned DR4 time window.

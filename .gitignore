@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+.env
+.DS_Store
+data_dr4/
+memo/phaseB_dryrun_*.md
+memo/phaseB_result.md
+results/phaseB_dryrun_*.png
+results/phaseB_fit.png
+results/phaseB_test_metrics*.json
+*.log
+.ipynb_checkpoints/

@@ -1,0 +1,19 @@
+# Frozen SHA-256 digests recorded before Gaia DR4 (release scheduled 2026-12-02).
+# Times are America/Detroit (UTC-5). phaseB/02_fit.py, in real mode, requires
+# that the last hash entry for each of prereg.md, prereg_v2.md, and the v2
+# fitter path below still matches the file on disk.
+#
+# v1 pre-registration frozen 2026-11-12T14:30:54-05:00
+c5374c6e41de69304483b3c1faba2804e66e57cf33240e7d0bf290e53e2eb5d6  prereg.md
+# Phase A simulator and forecast table, recorded with v1 the same afternoon
+ed59c7200212e7fac6fedc9a4931d9d3ed29cdf9cd48e3a357595e77655fa7f0  scripts/sim.py
+bbdd624a375fe6d5215ad6ec79d4cf3d75760d59c811e93b14ea2270eab63e1c  results/forecast.csv
+# Fetch script and simulator recorded during Phase B preparation
+15ff421d85abd76c7deede789af1ddb12b244a88eeee368df44b29dcda8ba423  phaseB/01_fetch_dr4.py
+28feeed027cb212746314b8a893b0107cd655d5ecaa5ae7f19569a08a3d7b7b5  phaseB/gen_sim_dr4.py
+# v1 fitter (superseded; kept for comparison). Recorded before the v2 freeze.
+95c549dee90cc7f30ce6e769a3649484b926eb6624226b82c283194b8dc4a472  phaseB/02_fit_v1.py
+# v2 pre-registration frozen 2026-11-12T15:42:01-05:00
+432664ad096b266eb67546215240ea2cbf0fe5a5e8af8c6131d25197d21f4a33  prereg_v2.md
+# v2 fitter (governs the Dec 2 analysis) frozen 2026-11-12T15:42:09-05:00
+5e79d81632f8500472c4a57295ec2e59c8046582bc6aa2307e424adbab45e783  phaseB/02_fit.py
